@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF0911C61E76CBD300D37C25 /* AddNewBillTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0911C51E76CBD300D37C25 /* AddNewBillTableViewController.swift */; };
+		CFC10B661E77205D0083A347 /* CurrentProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC10B651E77205D0083A347 /* CurrentProfileTableViewController.swift */; };
+		CFF0DBD31E7662C300FE8319 /* BillSettler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF0DBD21E7662C300FE8319 /* BillSettler.swift */; };
+		CFF81A561E731FD300A6D8CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF81A551E731FD300A6D8CC /* AppDelegate.swift */; };
+		CFF81A5D1E731FD300A6D8CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF81A5B1E731FD300A6D8CC /* Main.storyboard */; };
+		CFF81A5F1E731FD300A6D8CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF81A5E1E731FD300A6D8CC /* Assets.xcassets */; };
+		CFF81A621E731FD300A6D8CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF81A601E731FD300A6D8CC /* LaunchScreen.storyboard */; };
+		CFF81A6D1E731FD300A6D8CC /* mshao_Final_Project_Settle_ItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF81A6C1E731FD300A6D8CC /* mshao_Final_Project_Settle_ItTests.swift */; };
+		CFF81A781E731FD300A6D8CC /* mshao_Final_Project_Settle_ItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF81A771E731FD300A6D8CC /* mshao_Final_Project_Settle_ItUITests.swift */; };
+		CFF81A861E73359E00A6D8CC /* FriendTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF81A851E73359E00A6D8CC /* FriendTableViewController.swift */; };
+		CFF81A881E7336BE00A6D8CC /* GroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF81A871E7336BE00A6D8CC /* GroupTableViewController.swift */; };
+		CFF81A8A1E7336F200A6D8CC /* BillTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF81A891E7336F200A6D8CC /* BillTableViewController.swift */; };
+		CFF81A8E1E735F6A00A6D8CC /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF81A8D1E735F6A00A6D8CC /* FriendTableViewCell.swift */; };
+		CFF81A901E735F9700A6D8CC /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF81A8F1E735F9700A6D8CC /* GroupTableViewCell.swift */; };
+		CFF81A921E735FAB00A6D8CC /* BillTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF81A911E735FAB00A6D8CC /* BillTableViewCell.swift */; };
+		CFF81A961E73B17800A6D8CC /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF81A951E73B17800A6D8CC /* Friend.swift */; };
+		CFF81A981E73BE0C00A6D8CC /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF81A971E73BE0C00A6D8CC /* Group.swift */; };
+		CFF81A9C1E748A3700A6D8CC /* FriendDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF81A9B1E748A3700A6D8CC /* FriendDetailTableViewController.swift */; };
+		CFF81A9E1E7516C700A6D8CC /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF81A9D1E7516C700A6D8CC /* Bill.swift */; };
+		CFF81AA01E75246300A6D8CC /* AddNewGroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF81A9F1E75246200A6D8CC /* AddNewGroupTableViewController.swift */; };
+		CFF81AA21E7595D600A6D8CC /* AddFriendsToGroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF81AA11E7595D600A6D8CC /* AddFriendsToGroupTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFF81A691E731FD300A6D8CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFF81A4A1E731FD300A6D8CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFF81A511E731FD300A6D8CC;
+			remoteInfo = "mshao Final Project Settle It";
+		};
+		CFF81A741E731FD300A6D8CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFF81A4A1E731FD300A6D8CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFF81A511E731FD300A6D8CC;
+			remoteInfo = "mshao Final Project Settle It";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF0911C51E76CBD300D37C25 /* AddNewBillTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewBillTableViewController.swift; sourceTree = "<group>"; };
+		CFC10B651E77205D0083A347 /* CurrentProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentProfileTableViewController.swift; sourceTree = "<group>"; };
+		CFF0DBD21E7662C300FE8319 /* BillSettler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillSettler.swift; sourceTree = "<group>"; };
+		CFF81A521E731FD300A6D8CC /* mshao Final Project Settle It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mshao Final Project Settle It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF81A551E731FD300A6D8CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFF81A5C1E731FD300A6D8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFF81A5E1E731FD300A6D8CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFF81A611E731FD300A6D8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFF81A631E731FD300A6D8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF81A681E731FD300A6D8CC /* mshao Final Project Settle ItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mshao Final Project Settle ItTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF81A6C1E731FD300A6D8CC /* mshao_Final_Project_Settle_ItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mshao_Final_Project_Settle_ItTests.swift; sourceTree = "<group>"; };
+		CFF81A6E1E731FD300A6D8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF81A731E731FD300A6D8CC /* mshao Final Project Settle ItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mshao Final Project Settle ItUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF81A771E731FD300A6D8CC /* mshao_Final_Project_Settle_ItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mshao_Final_Project_Settle_ItUITests.swift; sourceTree = "<group>"; };
+		CFF81A791E731FD300A6D8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF81A851E73359E00A6D8CC /* FriendTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewController.swift; sourceTree = "<group>"; };
+		CFF81A871E7336BE00A6D8CC /* GroupTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupTableViewController.swift; sourceTree = "<group>"; };
+		CFF81A891E7336F200A6D8CC /* BillTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillTableViewController.swift; sourceTree = "<group>"; };
+		CFF81A8D1E735F6A00A6D8CC /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		CFF81A8F1E735F9700A6D8CC /* GroupTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		CFF81A911E735FAB00A6D8CC /* BillTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillTableViewCell.swift; sourceTree = "<group>"; };
+		CFF81A951E73B17800A6D8CC /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		CFF81A971E73BE0C00A6D8CC /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		CFF81A9B1E748A3700A6D8CC /* FriendDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendDetailTableViewController.swift; sourceTree = "<group>"; };
+		CFF81A9D1E7516C700A6D8CC /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		CFF81A9F1E75246200A6D8CC /* AddNewGroupTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewGroupTableViewController.swift; sourceTree = "<group>"; };
+		CFF81AA11E7595D600A6D8CC /* AddFriendsToGroupTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendsToGroupTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFF81A4F1E731FD300A6D8CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF81A651E731FD300A6D8CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF81A701E731FD300A6D8CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFF81A491E731FD300A6D8CC = {
+			isa = PBXGroup;
+			children = (
+				CFF81A541E731FD300A6D8CC /* mshao Final Project Settle It */,
+				CFF81A6B1E731FD300A6D8CC /* mshao Final Project Settle ItTests */,
+				CFF81A761E731FD300A6D8CC /* mshao Final Project Settle ItUITests */,
+				CFF81A531E731FD300A6D8CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFF81A531E731FD300A6D8CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFF81A521E731FD300A6D8CC /* mshao Final Project Settle It.app */,
+				CFF81A681E731FD300A6D8CC /* mshao Final Project Settle ItTests.xctest */,
+				CFF81A731E731FD300A6D8CC /* mshao Final Project Settle ItUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFF81A541E731FD300A6D8CC /* mshao Final Project Settle It */ = {
+			isa = PBXGroup;
+			children = (
+				CF0911C51E76CBD300D37C25 /* AddNewBillTableViewController.swift */,
+				CFF81A551E731FD300A6D8CC /* AppDelegate.swift */,
+				CFF81A5B1E731FD300A6D8CC /* Main.storyboard */,
+				CFC10B651E77205D0083A347 /* CurrentProfileTableViewController.swift */,
+				CFF81A9F1E75246200A6D8CC /* AddNewGroupTableViewController.swift */,
+				CFF81AA11E7595D600A6D8CC /* AddFriendsToGroupTableViewController.swift */,
+				CFF81A9D1E7516C700A6D8CC /* Bill.swift */,
+				CFF81A9B1E748A3700A6D8CC /* FriendDetailTableViewController.swift */,
+				CFF81A951E73B17800A6D8CC /* Friend.swift */,
+				CFF81A971E73BE0C00A6D8CC /* Group.swift */,
+				CFF81A8F1E735F9700A6D8CC /* GroupTableViewCell.swift */,
+				CFF81A911E735FAB00A6D8CC /* BillTableViewCell.swift */,
+				CFF81A8D1E735F6A00A6D8CC /* FriendTableViewCell.swift */,
+				CFF81A891E7336F200A6D8CC /* BillTableViewController.swift */,
+				CFF0DBD21E7662C300FE8319 /* BillSettler.swift */,
+				CFF81A871E7336BE00A6D8CC /* GroupTableViewController.swift */,
+				CFF81A851E73359E00A6D8CC /* FriendTableViewController.swift */,
+				CFF81A5E1E731FD300A6D8CC /* Assets.xcassets */,
+				CFF81A601E731FD300A6D8CC /* LaunchScreen.storyboard */,
+				CFF81A631E731FD300A6D8CC /* Info.plist */,
+			);
+			path = "mshao Final Project Settle It";
+			sourceTree = "<group>";
+		};
+		CFF81A6B1E731FD300A6D8CC /* mshao Final Project Settle ItTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFF81A6C1E731FD300A6D8CC /* mshao_Final_Project_Settle_ItTests.swift */,
+				CFF81A6E1E731FD300A6D8CC /* Info.plist */,
+			);
+			path = "mshao Final Project Settle ItTests";
+			sourceTree = "<group>";
+		};
+		CFF81A761E731FD300A6D8CC /* mshao Final Project Settle ItUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFF81A771E731FD300A6D8CC /* mshao_Final_Project_Settle_ItUITests.swift */,
+				CFF81A791E731FD300A6D8CC /* Info.plist */,
+			);
+			path = "mshao Final Project Settle ItUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFF81A511E731FD300A6D8CC /* mshao Final Project Settle It */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF81A7C1E731FD300A6D8CC /* Build configuration list for PBXNativeTarget "mshao Final Project Settle It" */;
+			buildPhases = (
+				CFF81A4E1E731FD300A6D8CC /* Sources */,
+				CFF81A4F1E731FD300A6D8CC /* Frameworks */,
+				CFF81A501E731FD300A6D8CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mshao Final Project Settle It";
+			productName = "mshao Final Project Settle It";
+			productReference = CFF81A521E731FD300A6D8CC /* mshao Final Project Settle It.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFF81A671E731FD300A6D8CC /* mshao Final Project Settle ItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF81A7F1E731FD300A6D8CC /* Build configuration list for PBXNativeTarget "mshao Final Project Settle ItTests" */;
+			buildPhases = (
+				CFF81A641E731FD300A6D8CC /* Sources */,
+				CFF81A651E731FD300A6D8CC /* Frameworks */,
+				CFF81A661E731FD300A6D8CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFF81A6A1E731FD300A6D8CC /* PBXTargetDependency */,
+			);
+			name = "mshao Final Project Settle ItTests";
+			productName = "mshao Final Project Settle ItTests";
+			productReference = CFF81A681E731FD300A6D8CC /* mshao Final Project Settle ItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFF81A721E731FD300A6D8CC /* mshao Final Project Settle ItUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF81A821E731FD300A6D8CC /* Build configuration list for PBXNativeTarget "mshao Final Project Settle ItUITests" */;
+			buildPhases = (
+				CFF81A6F1E731FD300A6D8CC /* Sources */,
+				CFF81A701E731FD300A6D8CC /* Frameworks */,
+				CFF81A711E731FD300A6D8CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFF81A751E731FD300A6D8CC /* PBXTargetDependency */,
+			);
+			name = "mshao Final Project Settle ItUITests";
+			productName = "mshao Final Project Settle ItUITests";
+			productReference = CFF81A731E731FD300A6D8CC /* mshao Final Project Settle ItUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFF81A4A1E731FD300A6D8CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mingfei Shao";
+				TargetAttributes = {
+					CFF81A511E731FD300A6D8CC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 32H26TQ927;
+						ProvisioningStyle = Automatic;
+					};
+					CFF81A671E731FD300A6D8CC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 32H26TQ927;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFF81A511E731FD300A6D8CC;
+					};
+					CFF81A721E731FD300A6D8CC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 32H26TQ927;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFF81A511E731FD300A6D8CC;
+					};
+				};
+			};
+			buildConfigurationList = CFF81A4D1E731FD300A6D8CC /* Build configuration list for PBXProject "mshao Final Project Settle It" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFF81A491E731FD300A6D8CC;
+			productRefGroup = CFF81A531E731FD300A6D8CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFF81A511E731FD300A6D8CC /* mshao Final Project Settle It */,
+				CFF81A671E731FD300A6D8CC /* mshao Final Project Settle ItTests */,
+				CFF81A721E731FD300A6D8CC /* mshao Final Project Settle ItUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFF81A501E731FD300A6D8CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF81A621E731FD300A6D8CC /* LaunchScreen.storyboard in Resources */,
+				CFF81A5F1E731FD300A6D8CC /* Assets.xcassets in Resources */,
+				CFF81A5D1E731FD300A6D8CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF81A661E731FD300A6D8CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF81A711E731FD300A6D8CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFF81A4E1E731FD300A6D8CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF81AA21E7595D600A6D8CC /* AddFriendsToGroupTableViewController.swift in Sources */,
+				CFF81AA01E75246300A6D8CC /* AddNewGroupTableViewController.swift in Sources */,
+				CF0911C61E76CBD300D37C25 /* AddNewBillTableViewController.swift in Sources */,
+				CFF81A981E73BE0C00A6D8CC /* Group.swift in Sources */,
+				CFF81A921E735FAB00A6D8CC /* BillTableViewCell.swift in Sources */,
+				CFF81A9E1E7516C700A6D8CC /* Bill.swift in Sources */,
+				CFF81A901E735F9700A6D8CC /* GroupTableViewCell.swift in Sources */,
+				CFF81A861E73359E00A6D8CC /* FriendTableViewController.swift in Sources */,
+				CFF81A9C1E748A3700A6D8CC /* FriendDetailTableViewController.swift in Sources */,
+				CFF81A561E731FD300A6D8CC /* AppDelegate.swift in Sources */,
+				CFF0DBD31E7662C300FE8319 /* BillSettler.swift in Sources */,
+				CFF81A8E1E735F6A00A6D8CC /* FriendTableViewCell.swift in Sources */,
+				CFF81A961E73B17800A6D8CC /* Friend.swift in Sources */,
+				CFC10B661E77205D0083A347 /* CurrentProfileTableViewController.swift in Sources */,
+				CFF81A8A1E7336F200A6D8CC /* BillTableViewController.swift in Sources */,
+				CFF81A881E7336BE00A6D8CC /* GroupTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF81A641E731FD300A6D8CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF81A6D1E731FD300A6D8CC /* mshao_Final_Project_Settle_ItTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF81A6F1E731FD300A6D8CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF81A781E731FD300A6D8CC /* mshao_Final_Project_Settle_ItUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFF81A6A1E731FD300A6D8CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFF81A511E731FD300A6D8CC /* mshao Final Project Settle It */;
+			targetProxy = CFF81A691E731FD300A6D8CC /* PBXContainerItemProxy */;
+		};
+		CFF81A751E731FD300A6D8CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFF81A511E731FD300A6D8CC /* mshao Final Project Settle It */;
+			targetProxy = CFF81A741E731FD300A6D8CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFF81A5B1E731FD300A6D8CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFF81A5C1E731FD300A6D8CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFF81A601E731FD300A6D8CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFF81A611E731FD300A6D8CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFF81A7A1E731FD300A6D8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFF81A7B1E731FD300A6D8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFF81A7D1E731FD300A6D8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 32H26TQ927;
+				INFOPLIST_FILE = "mshao Final Project Settle It/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.mshao-Final-Project-Settle-It";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CFF81A7E1E731FD300A6D8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 32H26TQ927;
+				INFOPLIST_FILE = "mshao Final Project Settle It/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.mshao-Final-Project-Settle-It";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CFF81A801E731FD300A6D8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 32H26TQ927;
+				INFOPLIST_FILE = "mshao Final Project Settle ItTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.mshao-Final-Project-Settle-ItTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mshao Final Project Settle It.app/mshao Final Project Settle It";
+			};
+			name = Debug;
+		};
+		CFF81A811E731FD300A6D8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 32H26TQ927;
+				INFOPLIST_FILE = "mshao Final Project Settle ItTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.mshao-Final-Project-Settle-ItTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mshao Final Project Settle It.app/mshao Final Project Settle It";
+			};
+			name = Release;
+		};
+		CFF81A831E731FD300A6D8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 32H26TQ927;
+				INFOPLIST_FILE = "mshao Final Project Settle ItUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.mshao-Final-Project-Settle-ItUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "mshao Final Project Settle It";
+			};
+			name = Debug;
+		};
+		CFF81A841E731FD300A6D8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 32H26TQ927;
+				INFOPLIST_FILE = "mshao Final Project Settle ItUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.mshao-Final-Project-Settle-ItUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "mshao Final Project Settle It";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFF81A4D1E731FD300A6D8CC /* Build configuration list for PBXProject "mshao Final Project Settle It" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF81A7A1E731FD300A6D8CC /* Debug */,
+				CFF81A7B1E731FD300A6D8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF81A7C1E731FD300A6D8CC /* Build configuration list for PBXNativeTarget "mshao Final Project Settle It" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF81A7D1E731FD300A6D8CC /* Debug */,
+				CFF81A7E1E731FD300A6D8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF81A7F1E731FD300A6D8CC /* Build configuration list for PBXNativeTarget "mshao Final Project Settle ItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF81A801E731FD300A6D8CC /* Debug */,
+				CFF81A811E731FD300A6D8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF81A821E731FD300A6D8CC /* Build configuration list for PBXNativeTarget "mshao Final Project Settle ItUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF81A831E731FD300A6D8CC /* Debug */,
+				CFF81A841E731FD300A6D8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFF81A4A1E731FD300A6D8CC /* Project object */;
+}

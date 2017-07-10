@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch" translatesAutoresizingMaskIntoConstraints="NO" id="ojJ-6E-cl0">
+                                <rect key="frame" x="67" y="213" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="27i-UA-Ifa"/>
+                                    <constraint firstAttribute="width" secondItem="ojJ-6E-cl0" secondAttribute="height" multiplier="1:1" id="5GL-Jp-WVl"/>
+                                    <constraint firstAttribute="width" constant="240" id="hTP-7P-wWp"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settle It!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u3E-YZ-mZd">
+                                <rect key="frame" x="132" y="107" width="110" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By M. Shao" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQS-8y-jKY">
+                                <rect key="frame" x="144" y="517" width="87" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ojJ-6E-cl0" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="1pZ-5L-y9E"/>
+                            <constraint firstItem="oQS-8y-jKY" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="128" id="6yw-Bd-Go0"/>
+                            <constraint firstItem="u3E-YZ-mZd" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="87" id="7IA-dB-N2b"/>
+                            <constraint firstItem="ojJ-6E-cl0" firstAttribute="top" secondItem="u3E-YZ-mZd" secondAttribute="bottom" constant="70" id="Lll-eL-ZeA"/>
+                            <constraint firstItem="ojJ-6E-cl0" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dPQ-uh-fMw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="u3E-YZ-mZd" secondAttribute="trailing" constant="117" id="gCd-cX-htX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="oQS-8y-jKY" secondAttribute="trailing" constant="128" id="klD-KB-sUB"/>
+                            <constraint firstItem="u3E-YZ-mZd" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="116" id="ll2-jv-eA3"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="oQS-8y-jKY" secondAttribute="bottom" constant="129" id="oM5-aN-KPI"/>
+                            <constraint firstItem="oQS-8y-jKY" firstAttribute="top" secondItem="ojJ-6E-cl0" secondAttribute="bottom" constant="64" id="pW5-Is-W97"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Launch" width="166" height="166"/>
+    </resources>
+</document>
